@@ -4,7 +4,7 @@ module.exports = function (context, req) {
 
     if (req.query.url) {
 
-        json_payload = {something: 'some_value'};
+        json_payload = {  EmailAddress: "string",  ID: "string",  PreferredLanguage: "string",  Product: "string",  "Source": "string",  "Status": "string",  "Total": 0}
 
         var url = req.query.url;
         var data = { body: json_payload, json: true };
